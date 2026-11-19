@@ -6,6 +6,8 @@ keyboard, such as **Nest Hub / Google Cast**.
 Tap any text field (for example "Summary" when adding an event in a calendar card)
 and a keyboard appears at the bottom of the screen.
 
+
+
 ## Features
 
 - Appears automatically on Google Cast. It does nothing on normal browsers and phones.
@@ -15,6 +17,18 @@ and a keyboard appears at the bottom of the screen.
   Unsupported languages fall back to English.
 - Light or dark keyboard that follows your Home Assistant theme.
 - Shift / caps lock, numbers and symbols, `@` and `.` for e-mail and URLs.
+
+## On a Nest Hub
+
+The light version of the keyboard
+![The light version of the keyboard](images/keyboard-light.png)
+
+The dark version of the keyboard
+![The dark version of the keyboard](images/keyboard-dark.png)
+
+Here showing the symbol view
+<img src="images/keyboard-symbols.png width="100" height="100">
+
 
 ## Installation
 
