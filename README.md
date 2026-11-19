@@ -27,7 +27,7 @@ The dark version of the keyboard
 ![The dark version of the keyboard](images/keyboard-dark.png)
 
 Here showing the symbol view
-<img src="images/keyboard-symbols.png width="100" height="100">
+![Showing symbols](images/keyboard-symbols.png)
 
 
 ## Installation
