@@ -35,17 +35,21 @@ Here showing the symbol view
 ### HACS (recommended)
 
 1. In HACS, open the menu (⋮) and choose **Custom repositories**.
-2. Add `https://github.com/OWNER/cast-keyboard` with category **Dashboard**
-   (called *Lovelace* in older versions).
+2. Add `https://github.com/grotteru/cast-keyboard` with category **Dashboard**
 3. Search for **Cast Keyboard**, install it, and reload your browser.
 
-HACS registers the resource automatically. If it does not, add it under
-**Settings → Dashboards → ⋮ → Resources**:
+HACS adds the resource for you. To check it, open Settings → Dashboards → three dots → Resources. You should see this entry:
+
+| URL | Type |
+| --- | --- |
+| `/local/community/cast-keyboard/cast-keyboard.js` | JavaScript module |
+
+If it is missing, add it with exactly that URL and type.
 
 ### Manual
 
 Copy `dist/cast-keyboard.js` to `/config/www/` and add `/local/cast-keyboard.js`
-as a JavaScript module resource.
+as a JavaScript module resource under Settings → Dashboards.
 
 ## Usage
 
