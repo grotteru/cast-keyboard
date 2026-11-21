@@ -1,4 +1,6 @@
 # Cast Keyboard
+[![HACS](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
+[![Current version](https://img.shields.io/github/v/release/grotteru/cast-keyboard)](https://github.com/grotteru/cast-keyboard/releases/latest)
 
 An on-screen keyboard for Home Assistant dashboards on devices that have no usable
 keyboard, such as **Nest Hub / Google Cast**.
@@ -32,24 +34,14 @@ Here showing the symbol view
 
 ## Installation
 
-### HACS (recommended)
+This plugin is in HACS/Marketplace default list:
 
-1. In HACS, open the menu (⋮) and choose **Custom repositories**.
-2. Add `https://github.com/grotteru/cast-keyboard` with category **Dashboard**
-3. Search for **Cast Keyboard**, install it, and reload your browser.
+1. In HACS/Marketplce search for **Cast Keyboard**
+2. Click **Download**. You have to re-cast the dashboard to make it work.
 
-HACS adds the resource for you. To check it, open Settings → Dashboards → three dots → Resources. You should see this entry:
+[![Open your Home Assistant instance and open a repository in the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=grotteru&repository=cast-dashboard&category=plugin)
 
-| URL | Type |
-| --- | --- |
-| `/local/community/cast-keyboard/cast-keyboard.js` | JavaScript module |
-
-If it is missing, add it with exactly that URL and type.
-
-### Manual
-
-Copy `dist/cast-keyboard.js` to `/config/www/` and add `/local/cast-keyboard.js`
-as a JavaScript module resource under Settings → Dashboards.
+Or copy `dist/cast-keyboard.js` to `/config/www/` and add `/local/cast-keyboard.js` as a JavaScript module resource under Settings → Dashboards → three dots → Resources 
 
 ## Usage
 
